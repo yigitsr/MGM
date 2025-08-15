@@ -1,2 +1,2 @@
 # MGM
-mastergrillmediterranean.com
+https://mastergrillmediterranean.com
