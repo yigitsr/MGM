@@ -1,0 +1,6 @@
+* Add a home btn to footer ✅
+* Back To Top btn
+* Animations
+* Add logo ✅
+* Add favicon ✅
+* nav bar stays the same when scroll down

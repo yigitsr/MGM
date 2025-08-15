@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Master Grill Mediterranean</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/img/logo.png" alt="Master Grill Mediterranean Logo" class="logo-img">
+                    <h2>Master Grill Mediterranean</h2>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    
+    <style>
+        .logo-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        .logo-img {
+            height: 50px;
+            /* adjust size as needed */
+            margin-right: 10px;
+        }
+    </style>
+    <!-- Navigation -->
+    <!-- <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Master Grill Mediterranean</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Photo Gallery</h1>
+            <p>Explore our restaurant, dishes, and memorable moments</p>
+        </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="gallery-content">
+        <div class="container">
+            <!-- Gallery Filter -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="dishes">Our Dishes</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Dish Photos -->
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mediterranean mezze platter">
+                    <div class="gallery-overlay">
+                        <h3>Mediterranean Mezze</h3>
+                        <p>Traditional appetizer platter</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1640771/pexels-photo-1640771.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Grilled lamb with herbs">
+                    <div class="gallery-overlay">
+                        <h3>Herb-Crusted Lamb</h3>
+                        <p>Signature grilled lamb</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fresh Mediterranean seafood">
+                    <div class="gallery-overlay">
+                        <h3>Fresh Seafood</h3>
+                        <p>Daily catch preparation</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mediterranean pasta dish">
+                    <div class="gallery-overlay">
+                        <h3>Mediterranean Pasta</h3>
+                        <p>House-made pasta with fresh herbs</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Greek salad">
+                    <div class="gallery-overlay">
+                        <h3>Traditional Greek Salad</h3>
+                        <p>Fresh vegetables and feta</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes">
+                    <img src="https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mediterranean vegetarian bowl">
+                    <div class="gallery-overlay">
+                        <h3>Vegetarian Delight</h3>
+                        <p>Seasonal vegetable medley</p>
+                    </div>
+                </div>
+
+                <!-- Interior Photos -->
+                <div class="gallery-item" data-category="interior">
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Restaurant dining area">
+                    <div class="gallery-overlay">
+                        <h3>Main Dining Area</h3>
+                        <p>Elegant Mediterranean atmosphere</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Restaurant bar area">
+                    <div class="gallery-overlay">
+                        <h3>Mediterranean Bar</h3>
+                        <p>Curated wine and cocktail selection</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Restaurant terrace">
+                    <div class="gallery-overlay">
+                        <h3>Outdoor Terrace</h3>
+                        <p>Al fresco dining experience</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <img src="https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Private dining room">
+                    <div class="gallery-overlay">
+                        <h3>Private Dining</h3>
+                        <p>Intimate space for special occasions</p>
+                    </div>
+                </div>
+
+                <!-- Event Photos -->
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wedding celebration">
+                    <div class="gallery-overlay">
+                        <h3>Wedding Celebration</h3>
+                        <p>Memorable moments</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Private party">
+                    <div class="gallery-overlay">
+                        <h3>Private Events</h3>
+                        <p>Customized celebrations</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cooking class">
+                    <div class="gallery-overlay">
+                        <h3>Cooking Classes</h3>
+                        <p>Learn Mediterranean techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="gallery-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+            <div class="modal-nav">
+                <button id="prev-btn" class="modal-nav-btn">&laquo; Previous</button>
+                <button id="next-btn" class="modal-nav-btn">Next &raquo;</button>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Master Grill Mediterranean</h3>
+                <p>Authentic Mediterranean cuisine in the heart of West Palm Beach</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/p/Master-Grill-Mediterranean-61574359037773/"
+                        aria-label="Facebook">📘
+                        Facebook</a>
+                    <a href="https://www.instagram.com/master_grill_mediterranean/" aria-label="Instagram">📷
+                        Instagram</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>📍 400 Clematis Ste 103<br>West Palm Beach, Florida 33401</p>
+                <!-- <p>📞 <a href="tel:+5616187727">(561) 618-7727</a></p> -->
+                <p>✉️ info@mastergrillmediterranean.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Monday - Saturday: 11:30 AM - 09:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="menu.html">View Menu</a>
+                <a href="gallery.html">Photo Gallery</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Master Grill Mediterranean. All rights reserved. | Designed by <a
+                    style="color: #fff;text-decoration: none;" href="https://yigitsereflioglu.dev" target="_blank">Yigit
+                    S</a></p>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
