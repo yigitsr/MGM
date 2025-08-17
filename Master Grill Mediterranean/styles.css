@@ -1088,6 +1088,10 @@ p {
         font-size: 0.9rem;
     }
 
+    .home-menu{
+        width: 95% !important;
+    }
+
     .page-header {
         padding: 120px 0 60px;
     }
