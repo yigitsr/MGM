@@ -4,3 +4,8 @@
 * Add logo ✅
 * Add favicon ✅
 * nav bar stays the same when scroll down
+* SEO tags (SEO check) ✅
+* sitemap ✅
+* robots.txt ✅
+* online delivery buttons - Online Delivery (coming soon) ✅
+* add Yelp ✅

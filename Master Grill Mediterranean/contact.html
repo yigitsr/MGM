@@ -3,37 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Master Grill Mediterranean</title>
-    <link rel="shortcut icon" type="image/jpg" href="assets/img/logo.png"/>
+
+    <!-- Page Title -->
+    <title>Contact Us - Master Grill Mediterranean | West Palm Beach</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Get in touch with Master Grill Mediterranean in West Palm Beach. Contact us for reservations, catering, or questions about our authentic Mediterranean cuisine.">
+    <meta name="keywords"
+        content="Mediterranean restaurant West Palm Beach, Master Grill Mediterranean, seafood, grilled meats, vegetarian options, fine wines, reservations">
+
+    <!-- Open Graph (Facebook & Instagram) -->
+    <meta property="og:title" content="Contact Us - Master Grill Mediterranean">
+    <meta property="og:description"
+        content="Reach out to Master Grill Mediterranean in West Palm Beach for reservations, catering, and authentic Mediterranean flavors.">
+    <meta property="og:image" content="https://www.mastergrillmediterranean.com/assets/img/logo.png">
+    <meta property="og:url" content="https://www.mastergrillmediterranean.com/contact.html">
+    <meta property="og:type" content="restaurant">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Master Grill Mediterranean",
+    "image": "https://www.mastergrillmediterranean.com/assets/img/logo.png",
+    "url": "https://www.mastergrillmediterranean.com",
+    "telephone": "+1-561-555-1234",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "400 Clematis Ste 103",
+        "addressLocality": "West Palm Beach",
+        "addressRegion": "FL",
+        "postalCode": "33401",
+        "addressCountry": "US"
+        },
+    "servesCuisine": "Mediterranean",
+    "priceRange": "$$",
+    "menu": "https://www.mastergrillmediterranean.com/assets/menu/menu.pdf",
+    "sameAs": [
+      "https://www.facebook.com/p/Master-Grill-Mediterranean-61574359037773/",
+      "https://www.instagram.com/master_grill_mediterranean/"
+    ]
+  }
+  </script>
 </head>
+
+
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html" class="logo-link">
-                    <img src="assets/img/logo.png" alt="Master Grill Mediterranean Logo" class="logo-img">
-                    <h2>Master Grill Mediterranean</h2>
-                </a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="menu.html" class="nav-link">Menu</a>
-                <a href="gallery.html" class="nav-link">Gallery</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="contact.html" class="nav-link active">Contact</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+    <div id="navbar-placeholder"></div>
+
     
     <style>
         .logo-link {
@@ -199,50 +232,23 @@
             </div>
         </div>
     </section>
+    
 
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Master Grill Mediterranean</h3>
-                <p>Authentic Mediterranean cuisine in the heart of West Palm Beach</p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/p/Master-Grill-Mediterranean-61574359037773/"
-                        aria-label="Facebook">📘
-                        Facebook</a>
-                    <a href="https://www.instagram.com/master_grill_mediterranean/" aria-label="Instagram">📷
-                        Instagram</a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h4>Contact Info</h4>
-                <p>📍 400 Clematis Ste 103<br>West Palm Beach, Florida 33401</p>
-                <!-- <p>📞 <a href="tel:+5616187727">(561) 618-7727</a></p> -->
-                <p>✉️ info@mastergrillmediterranean.com</p>
-            </div>
-            <div class="footer-section">
-                <h4>Hours</h4>
-                <p>Monday - Saturday: 11:30 AM - 08:00 PM</p>
-                <p>Sunday: Closed</p>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <a href="index.html">Home</a>
-                <a href="menu.html">View Menu</a>
-                <a href="gallery.html">Photo Gallery</a>
-                <a href="about.html">About Us</a>
-                <a href="contact.html">Contact Us</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Master Grill Mediterranean. All rights reserved. | Designed by <a
-                    style="color: #fff;text-decoration: none;" href="https://yigitsereflioglu.dev" target="_blank">Yigit
-                    S</a></p>
-        </div>
-    </div>
-</footer>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <svg xmlns="http://www.w3.org/2000/svg" id="up" fill="#fff" width="25" height="20" viewBox="0 0 24 24">
+                    <path d="M0 21l12-18 12 18h-24zm12-16.197l-10.132 15.197h20.263l-10.131-15.197" />
+                </svg>
+            </button>
+
+
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+
 
     <script src="script.js"></script>
+    <script src="gototop.js"></script>
+    <script src="components.js"></script>
+
+
 </body>
 </html>
